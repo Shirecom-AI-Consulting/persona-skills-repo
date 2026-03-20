@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "generated_at": "2026-03-20",
+  "persona": {
+    "name": "Kim Strong",
+    "email": "kim.strong@shirecom.com",
+    "role_summary": "Customer Success Manager \u2014 User onboarding, support operations, audit/compliance reporting, and process documentation.",
+    "capabilities": [
+      "User Onboarding & Enablement",
+      "Support Operations Management",
+      "Audit & Compliance Reporting",
+      "Process Documentation"
+    ]
+  },
+  "allocation_rationale": "Kim supports customers and internal operations. Customer-support is her primary interaction skill; tutorial-engineer and docs-architect support onboarding content creation; reference-builder aids compliance documentation; business-analyst helps translate process requirements; risk-manager informs audit reporting.",
+  "skills": [
+    {
+      "name": "customer-support",
+      "description": "Handle customer inquiries with empathy, technical accuracy, and clear communication. Escalates appropriately and documents resolutions. Use PROACTIVELY for customer-facing responses.",
+      "model": "haiku",
+      "file_path": "customer-support.md"
+    },
+    {
+      "name": "docs-architect",
+      "description": "Design comprehensive documentation systems with information architecture, style guides, and content strategy. Masters technical writing and docs-as-code workflows. Use PROACTIVELY for documentation projects.",
+      "model": "sonnet",
+      "file_path": "docs-architect.md"
+    },
+    {
+      "name": "tutorial-engineer",
+      "description": "Creates step-by-step tutorials and educational content from code. Transforms complex concepts into progressive learning experiences. Use PROACTIVELY for onboarding guides, feature tutorials, or concept explanations.",
+      "model": "opus",
+      "file_path": "tutorial-engineer.md"
+    },
+    {
+      "name": "reference-builder",
+      "description": "Create comprehensive API references and technical documentation with consistent formatting and examples. Masters documentation automation. Use PROACTIVELY for reference documentation.",
+      "model": "haiku",
+      "file_path": "reference-builder.md"
+    },
+    {
+      "name": "hr-pro",
+      "description": "Handle HR-related tasks including job descriptions, interview questions, and policy documentation. Masters hiring workflows and employee communications. Use PROACTIVELY for HR content.",
+      "model": "haiku",
+      "file_path": "hr-pro.md"
+    },
+    {
+      "name": "business-analyst",
+      "description": "Translate business needs into technical requirements with user stories, workflows, and acceptance criteria. Bridges stakeholder communication. Use PROACTIVELY for requirements gathering.",
+      "model": "sonnet",
+      "file_path": "business-analyst.md"
+    },
+    {
+      "name": "mermaid-expert",
+      "description": "Create clear diagrams using Mermaid syntax for flowcharts, sequence diagrams, ERDs, and architecture visualizations. Use PROACTIVELY for diagram creation.",
+      "model": "sonnet",
+      "file_path": "mermaid-expert.md"
+    },
+    {
+      "name": "search-specialist",
+      "description": "Expert web researcher using advanced search techniques and synthesis. Masters search operators, result filtering, and multi-source verification. Use PROACTIVELY for deep research, information gathering, or trend analysis.",
+      "model": "haiku",
+      "file_path": "search-specialist.md"
+    },
+    {
+      "name": "content-marketer",
+      "description": "Create compelling marketing content including blog posts, landing pages, and email campaigns. Focuses on conversion-optimized copy and brand voice. Use PROACTIVELY for marketing content.",
+      "model": "haiku",
+      "file_path": "content-marketer.md"
+    },
+    {
+      "name": "risk-manager",
+      "description": "Assess and mitigate technical and business risks with frameworks and quantitative analysis. Masters risk matrices and mitigation strategies. Use PROACTIVELY for risk assessment.",
+      "model": "opus",
+      "file_path": "risk-manager.md"
+    }
+  ],
+  "model_distribution": {
+    "haiku": 5,
+    "sonnet": 3,
+    "opus": 2
+  },
+  "total_skills": 10
+}

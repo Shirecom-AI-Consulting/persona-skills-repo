@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "generated_at": "2026-03-20",
+  "persona": {
+    "name": "Anna Bunting",
+    "email": "anna.bunting@shirecom.com",
+    "role_summary": "Patent Attorney \u2014 Patent prosecution, portfolio evaluation, prior art research, and patent claim drafting.",
+    "capabilities": [
+      "Patent Prosecution",
+      "Patent Portfolio Evaluation",
+      "Prior Art Research",
+      "Patent Claim Drafting"
+    ]
+  },
+  "allocation_rationale": "Anna handles IP prosecution and patent strategy. Legal-advisor underpins all drafting and review tasks; search-specialist is critical for prior art research; docs-architect supports patent portfolio documentation; risk-manager informs portfolio risk assessment; prompt-engineer aids in refining AI-assisted claim generation workflows.",
+  "skills": [
+    {
+      "name": "legal-advisor",
+      "description": "Draft and review legal documents including privacy policies, terms of service, and contracts. Provides compliance guidance and risk assessment. Use PROACTIVELY for legal content.",
+      "model": "opus",
+      "file_path": "legal-advisor.md"
+    },
+    {
+      "name": "search-specialist",
+      "description": "Expert web researcher using advanced search techniques and synthesis. Masters search operators, result filtering, and multi-source verification. Use PROACTIVELY for deep research, information gathering, or trend analysis.",
+      "model": "haiku",
+      "file_path": "search-specialist.md"
+    },
+    {
+      "name": "docs-architect",
+      "description": "Design comprehensive documentation systems with information architecture, style guides, and content strategy. Masters technical writing and docs-as-code workflows. Use PROACTIVELY for documentation projects.",
+      "model": "sonnet",
+      "file_path": "docs-architect.md"
+    },
+    {
+      "name": "reference-builder",
+      "description": "Create comprehensive API references and technical documentation with consistent formatting and examples. Masters documentation automation. Use PROACTIVELY for reference documentation.",
+      "model": "haiku",
+      "file_path": "reference-builder.md"
+    },
+    {
+      "name": "business-analyst",
+      "description": "Translate business needs into technical requirements with user stories, workflows, and acceptance criteria. Bridges stakeholder communication. Use PROACTIVELY for requirements gathering.",
+      "model": "sonnet",
+      "file_path": "business-analyst.md"
+    },
+    {
+      "name": "risk-manager",
+      "description": "Assess and mitigate technical and business risks with frameworks and quantitative analysis. Masters risk matrices and mitigation strategies. Use PROACTIVELY for risk assessment.",
+      "model": "opus",
+      "file_path": "risk-manager.md"
+    },
+    {
+      "name": "mermaid-expert",
+      "description": "Create clear diagrams using Mermaid syntax for flowcharts, sequence diagrams, ERDs, and architecture visualizations. Use PROACTIVELY for diagram creation.",
+      "model": "sonnet",
+      "file_path": "mermaid-expert.md"
+    },
+    {
+      "name": "prompt-engineer",
+      "description": "Design effective prompts for LLMs with clear instructions, examples, and guardrails. Masters chain-of-thought, few-shot learning, and prompt optimization. Use PROACTIVELY for prompt engineering.",
+      "model": "opus",
+      "file_path": "prompt-engineer.md"
+    }
+  ],
+  "model_distribution": {
+    "opus": 3,
+    "haiku": 2,
+    "sonnet": 3
+  },
+  "total_skills": 8
+}

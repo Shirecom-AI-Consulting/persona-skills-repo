@@ -1,0 +1,673 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "generated_at": "2026-03-20",
+  "description": "Master index of all QuadCode persona skill registries",
+  "total_personas": 27,
+  "personas": [
+    {
+      "name": "Alex Reed",
+      "email": "alex.reed@shirecom.com",
+      "role_summary": "Content Strategist \u2014 Content strategy, copywriting, SEO optimization, and content distribution analytics.",
+      "registry_file": "alex-reed-skill-registry.json",
+      "total_skills": 13,
+      "model_distribution": {
+        "sonnet": 4,
+        "haiku": 9
+      },
+      "skill_names": [
+        "seo-content-writer",
+        "seo-content-planner",
+        "seo-content-auditor",
+        "seo-content-refresher",
+        "seo-cannibalization-detector",
+        "seo-authority-builder",
+        "seo-keyword-strategist",
+        "seo-meta-optimizer",
+        "seo-snippet-hunter",
+        "seo-structure-architect",
+        "content-marketer",
+        "search-specialist",
+        "docs-architect"
+      ]
+    },
+    {
+      "name": "Anna Bunting",
+      "email": "anna.bunting@shirecom.com",
+      "role_summary": "Patent Attorney \u2014 Patent prosecution, portfolio evaluation, prior art research, and patent claim drafting.",
+      "registry_file": "anna-bunting-skill-registry.json",
+      "total_skills": 8,
+      "model_distribution": {
+        "opus": 3,
+        "haiku": 2,
+        "sonnet": 3
+      },
+      "skill_names": [
+        "legal-advisor",
+        "search-specialist",
+        "docs-architect",
+        "reference-builder",
+        "business-analyst",
+        "risk-manager",
+        "mermaid-expert",
+        "prompt-engineer"
+      ]
+    },
+    {
+      "name": "Ava Reynolds",
+      "email": "ava.reynolds@shirecom.com",
+      "role_summary": "CEO \u2014 Strategic leadership, client executive engagement, AI consulting oversight, and organizational decision making.",
+      "registry_file": "ava-reynolds-skill-registry.json",
+      "total_skills": 11,
+      "model_distribution": {
+        "sonnet": 3,
+        "opus": 4,
+        "haiku": 4
+      },
+      "skill_names": [
+        "business-analyst",
+        "risk-manager",
+        "legal-advisor",
+        "search-specialist",
+        "docs-architect",
+        "mermaid-expert",
+        "sales-automator",
+        "content-marketer",
+        "prompt-engineer",
+        "persona-creator",
+        "hr-pro"
+      ]
+    },
+    {
+      "name": "Carlos Ramirez",
+      "email": "carlos.ramirez@shirecom.com",
+      "role_summary": "Backend Engineer \u2014 API design, database integration, backend performance optimization, and security implementation.",
+      "registry_file": "carlos-ramirez-skill-registry.json",
+      "total_skills": 21,
+      "model_distribution": {
+        "opus": 4,
+        "haiku": 2,
+        "sonnet": 15
+      },
+      "skill_names": [
+        "backend-architect",
+        "backend-security-coder",
+        "api-documenter",
+        "graphql-architect",
+        "java-pro",
+        "python-pro",
+        "javascript-pro",
+        "typescript-pro",
+        "golang-pro",
+        "fastapi-pro",
+        "django-pro",
+        "sql-pro",
+        "database-admin",
+        "database-optimizer",
+        "performance-engineer",
+        "code-reviewer",
+        "debugger",
+        "error-detective",
+        "tdd-orchestrator",
+        "test-automator",
+        "reference-builder"
+      ]
+    },
+    {
+      "name": "David Kim",
+      "email": "david.kim@shirecom.com",
+      "role_summary": "QA Engineer \u2014 Test strategy, test automation, defect management, and performance/load testing.",
+      "registry_file": "david-kim-skill-registry.json",
+      "total_skills": 10,
+      "model_distribution": {
+        "sonnet": 7,
+        "opus": 2,
+        "haiku": 1
+      },
+      "skill_names": [
+        "test-automator",
+        "tdd-orchestrator",
+        "debugger",
+        "error-detective",
+        "performance-engineer",
+        "code-reviewer",
+        "api-documenter",
+        "docs-architect",
+        "mermaid-expert",
+        "devops-troubleshooter"
+      ]
+    },
+    {
+      "name": "Dr. Alex Reid",
+      "email": "alex.reid@shirecom.com",
+      "role_summary": "Lead AI Quality Auditor \u2014 Persona evaluation, prompt usage auditing, artifact quality assessment, and traceability analysis.",
+      "registry_file": "dr-alex-reid-skill-registry.json",
+      "total_skills": 11,
+      "model_distribution": {
+        "opus": 6,
+        "sonnet": 5
+      },
+      "skill_names": [
+        "prompt-engineer",
+        "persona-creator",
+        "context-manager",
+        "docs-architect",
+        "mermaid-expert",
+        "architect-review",
+        "observability-engineer",
+        "error-detective",
+        "risk-manager",
+        "business-analyst",
+        "tdd-orchestrator"
+      ]
+    },
+    {
+      "name": "Emma Brooks",
+      "email": "emma.brooks@shirecom.com",
+      "role_summary": "Brand Strategist \u2014 Brand strategy, governance, campaign management, and competitive brand analysis.",
+      "registry_file": "emma-brooks-skill-registry.json",
+      "total_skills": 9,
+      "model_distribution": {
+        "haiku": 4,
+        "sonnet": 5
+      },
+      "skill_names": [
+        "content-marketer",
+        "seo-authority-builder",
+        "seo-content-auditor",
+        "seo-content-writer",
+        "seo-content-planner",
+        "search-specialist",
+        "docs-architect",
+        "mermaid-expert",
+        "sales-automator"
+      ]
+    },
+    {
+      "name": "Eric Frazer",
+      "email": "eric.frazer@shirecom.com",
+      "role_summary": "IP Litigation Attorney \u2014 IP litigation strategy, freedom-to-operate analysis, IP licensing, and technology patent strategy.",
+      "registry_file": "eric-frazer-skill-registry.json",
+      "total_skills": 7,
+      "model_distribution": {
+        "opus": 2,
+        "haiku": 2,
+        "sonnet": 3
+      },
+      "skill_names": [
+        "legal-advisor",
+        "search-specialist",
+        "risk-manager",
+        "docs-architect",
+        "business-analyst",
+        "mermaid-expert",
+        "reference-builder"
+      ]
+    },
+    {
+      "name": "Ethan Miller",
+      "email": "ethan.miller@shirecom.com",
+      "role_summary": "Frontend Engineer \u2014 React application development, UI implementation, frontend-API integration, and frontend testing.",
+      "registry_file": "ethan-miller-skill-registry.json",
+      "total_skills": 14,
+      "model_distribution": {
+        "sonnet": 11,
+        "haiku": 1,
+        "opus": 2
+      },
+      "skill_names": [
+        "frontend-developer",
+        "frontend-security-coder",
+        "typescript-pro",
+        "javascript-pro",
+        "ui-ux-designer",
+        "ui-visual-validator",
+        "graphql-architect",
+        "api-documenter",
+        "code-reviewer",
+        "debugger",
+        "test-automator",
+        "tdd-orchestrator",
+        "performance-engineer",
+        "mobile-developer"
+      ]
+    },
+    {
+      "name": "Fred Philco",
+      "email": "fred.philco@shirecom.com",
+      "role_summary": "Platform Engineer \u2014 Cloud strategy, platform engineering, DevOps pipeline design, and disaster recovery.",
+      "registry_file": "fred-philco-skill-registry.json",
+      "total_skills": 13,
+      "model_distribution": {
+        "opus": 7,
+        "sonnet": 6
+      },
+      "skill_names": [
+        "cloud-architect",
+        "hybrid-cloud-architect",
+        "kubernetes-architect",
+        "terraform-specialist",
+        "deployment-engineer",
+        "devops-troubleshooter",
+        "observability-engineer",
+        "network-engineer",
+        "incident-responder",
+        "security-auditor",
+        "database-admin",
+        "mermaid-expert",
+        "performance-engineer"
+      ]
+    },
+    {
+      "name": "James Carter",
+      "email": "james.carter@shirecom.com",
+      "role_summary": "IP Strategy Counsel \u2014 IP portfolio management, NDA drafting, IP risk assessment, and trade secret protection.",
+      "registry_file": "james-carter-skill-registry.json",
+      "total_skills": 7,
+      "model_distribution": {
+        "opus": 2,
+        "sonnet": 3,
+        "haiku": 2
+      },
+      "skill_names": [
+        "legal-advisor",
+        "risk-manager",
+        "docs-architect",
+        "search-specialist",
+        "business-analyst",
+        "mermaid-expert",
+        "reference-builder"
+      ]
+    },
+    {
+      "name": "Jordan Chen",
+      "email": "jordan.chen@shirecom.com",
+      "role_summary": "AI Quality Auditor \u2014 Persona evaluation, prompt usage auditing, artifact quality assessment, and traceability analysis.",
+      "registry_file": "jordan-chen-skill-registry.json",
+      "total_skills": 9,
+      "model_distribution": {
+        "opus": 4,
+        "sonnet": 5
+      },
+      "skill_names": [
+        "prompt-engineer",
+        "persona-creator",
+        "context-manager",
+        "docs-architect",
+        "mermaid-expert",
+        "business-analyst",
+        "observability-engineer",
+        "error-detective",
+        "risk-manager"
+      ]
+    },
+    {
+      "name": "Kim Strong",
+      "email": "kim.strong@shirecom.com",
+      "role_summary": "Customer Success Manager \u2014 User onboarding, support operations, audit/compliance reporting, and process documentation.",
+      "registry_file": "kim-strong-skill-registry.json",
+      "total_skills": 10,
+      "model_distribution": {
+        "haiku": 5,
+        "sonnet": 3,
+        "opus": 2
+      },
+      "skill_names": [
+        "customer-support",
+        "docs-architect",
+        "tutorial-engineer",
+        "reference-builder",
+        "hr-pro",
+        "business-analyst",
+        "mermaid-expert",
+        "search-specialist",
+        "content-marketer",
+        "risk-manager"
+      ]
+    },
+    {
+      "name": "Laura Chen",
+      "email": "laura.chen@shirecom.com",
+      "role_summary": "AI Quality Auditor \u2014 Persona evaluation, prompt usage auditing, artifact quality assessment, and traceability analysis.",
+      "registry_file": "laura-chen-skill-registry.json",
+      "total_skills": 9,
+      "model_distribution": {
+        "opus": 4,
+        "sonnet": 5
+      },
+      "skill_names": [
+        "prompt-engineer",
+        "persona-creator",
+        "context-manager",
+        "docs-architect",
+        "mermaid-expert",
+        "business-analyst",
+        "observability-engineer",
+        "error-detective",
+        "risk-manager"
+      ]
+    },
+    {
+      "name": "Laura Hayes",
+      "email": "laura.hayes@shirecom.com",
+      "role_summary": "General Counsel \u2014 Compliance program management, regulatory advisory, legal risk management, and corporate governance.",
+      "registry_file": "laura-hayes-skill-registry.json",
+      "total_skills": 8,
+      "model_distribution": {
+        "opus": 2,
+        "sonnet": 3,
+        "haiku": 3
+      },
+      "skill_names": [
+        "legal-advisor",
+        "risk-manager",
+        "docs-architect",
+        "business-analyst",
+        "mermaid-expert",
+        "search-specialist",
+        "hr-pro",
+        "reference-builder"
+      ]
+    },
+    {
+      "name": "Mia Thompson",
+      "email": "mia.thompson@shirecom.com",
+      "role_summary": "AI Quality Auditor \u2014 Persona evaluation, prompt usage auditing, artifact quality assessment, and traceability analysis.",
+      "registry_file": "mia-thompson-skill-registry.json",
+      "total_skills": 9,
+      "model_distribution": {
+        "opus": 4,
+        "sonnet": 5
+      },
+      "skill_names": [
+        "prompt-engineer",
+        "persona-creator",
+        "context-manager",
+        "docs-architect",
+        "mermaid-expert",
+        "business-analyst",
+        "observability-engineer",
+        "error-detective",
+        "risk-manager"
+      ]
+    },
+    {
+      "name": "Michael Chen",
+      "email": "michael.chen@shirecom.com",
+      "role_summary": "Digital Advertising Specialist \u2014 PPC campaign management, social media advertising, conversion rate optimization, and analytics.",
+      "registry_file": "michael-chen-skill-registry.json",
+      "total_skills": 9,
+      "model_distribution": {
+        "haiku": 7,
+        "sonnet": 1,
+        "opus": 1
+      },
+      "skill_names": [
+        "content-marketer",
+        "seo-content-writer",
+        "seo-meta-optimizer",
+        "seo-keyword-strategist",
+        "seo-snippet-hunter",
+        "seo-structure-architect",
+        "sales-automator",
+        "search-specialist",
+        "data-scientist"
+      ]
+    },
+    {
+      "name": "Morgan Blake",
+      "email": "morgan.blake@shirecom.com",
+      "role_summary": "AI Quality Auditor \u2014 Persona evaluation, prompt usage auditing, artifact quality assessment, and traceability analysis.",
+      "registry_file": "morgan-blake-skill-registry.json",
+      "total_skills": 9,
+      "model_distribution": {
+        "opus": 4,
+        "sonnet": 5
+      },
+      "skill_names": [
+        "prompt-engineer",
+        "persona-creator",
+        "context-manager",
+        "docs-architect",
+        "mermaid-expert",
+        "business-analyst",
+        "observability-engineer",
+        "error-detective",
+        "risk-manager"
+      ]
+    },
+    {
+      "name": "Neha Rao",
+      "email": "neha.rao@shirecom.com",
+      "role_summary": "Principal AI Systems Architect \u2014 Java microservices architecture, AI platform integration, distributed system design, and technical architecture leadership.",
+      "registry_file": "neha-rao-skill-registry.json",
+      "total_skills": 15,
+      "model_distribution": {
+        "opus": 7,
+        "sonnet": 8
+      },
+      "skill_names": [
+        "backend-architect",
+        "architect-review",
+        "java-pro",
+        "python-pro",
+        "ai-engineer",
+        "ml-engineer",
+        "prompt-engineer",
+        "context-manager",
+        "graphql-architect",
+        "database-optimizer",
+        "mermaid-expert",
+        "performance-engineer",
+        "security-auditor",
+        "docs-architect",
+        "legacy-modernizer"
+      ]
+    },
+    {
+      "name": "Neo Grapher",
+      "email": "neo.grapher@shirecom.com",
+      "role_summary": "Graph Database Architect \u2014 Graph data modeling, GraphRAG solution architecture, Cypher query engineering, and knowledge graph operations.",
+      "registry_file": "neo-grapher-skill-registry.json",
+      "total_skills": 13,
+      "model_distribution": {
+        "sonnet": 7,
+        "opus": 6
+      },
+      "skill_names": [
+        "database-admin",
+        "database-optimizer",
+        "sql-pro",
+        "data-engineer",
+        "data-scientist",
+        "ai-engineer",
+        "python-pro",
+        "backend-architect",
+        "mermaid-expert",
+        "docs-architect",
+        "performance-engineer",
+        "observability-engineer",
+        "architect-review"
+      ]
+    },
+    {
+      "name": "Priya Singh",
+      "email": "priya.singh@shirecom.com",
+      "role_summary": "Market Research Analyst \u2014 Market research, competitive intelligence, voice of customer analysis, and market sizing.",
+      "registry_file": "priya-singh-skill-registry.json",
+      "total_skills": 9,
+      "model_distribution": {
+        "haiku": 3,
+        "opus": 1,
+        "sonnet": 5
+      },
+      "skill_names": [
+        "search-specialist",
+        "data-scientist",
+        "business-analyst",
+        "content-marketer",
+        "seo-content-auditor",
+        "seo-keyword-strategist",
+        "seo-authority-builder",
+        "docs-architect",
+        "mermaid-expert"
+      ]
+    },
+    {
+      "name": "Ravi Kumar",
+      "email": "ravi.kumar@shirecom.com",
+      "role_summary": "AWS Solutions Architect \u2014 AWS solution architecture, infrastructure as code, cloud cost optimization, and cloud security.",
+      "registry_file": "ravi-kumar-skill-registry.json",
+      "total_skills": 13,
+      "model_distribution": {
+        "opus": 7,
+        "sonnet": 6
+      },
+      "skill_names": [
+        "cloud-architect",
+        "hybrid-cloud-architect",
+        "terraform-specialist",
+        "kubernetes-architect",
+        "deployment-engineer",
+        "network-engineer",
+        "security-auditor",
+        "backend-security-coder",
+        "observability-engineer",
+        "database-admin",
+        "incident-responder",
+        "mermaid-expert",
+        "devops-troubleshooter"
+      ]
+    },
+    {
+      "name": "Riley James",
+      "email": "riley.james@shirecom.com",
+      "role_summary": "Context Orchestration Manager \u2014 Context orchestration, tool brokering, MCP routing, context governance, and persona task routing.",
+      "registry_file": "riley-james-skill-registry.json",
+      "total_skills": 10,
+      "model_distribution": {
+        "sonnet": 5,
+        "opus": 5
+      },
+      "skill_names": [
+        "context-manager",
+        "prompt-engineer",
+        "ai-engineer",
+        "persona-creator",
+        "observability-engineer",
+        "error-detective",
+        "debugger",
+        "docs-architect",
+        "mermaid-expert",
+        "architect-review"
+      ]
+    },
+    {
+      "name": "Samira Patel",
+      "email": "samira.patel@shirecom.com",
+      "role_summary": "AI/ML Engineer \u2014 Python microservices, AI workflow design, MLOps, and third-party API integration.",
+      "registry_file": "samira-patel-skill-registry.json",
+      "total_skills": 16,
+      "model_distribution": {
+        "sonnet": 8,
+        "opus": 7,
+        "haiku": 1
+      },
+      "skill_names": [
+        "python-pro",
+        "fastapi-pro",
+        "ai-engineer",
+        "ml-engineer",
+        "mlops-engineer",
+        "data-engineer",
+        "data-scientist",
+        "prompt-engineer",
+        "context-manager",
+        "api-documenter",
+        "backend-security-coder",
+        "code-reviewer",
+        "debugger",
+        "test-automator",
+        "tdd-orchestrator",
+        "deployment-engineer"
+      ]
+    },
+    {
+      "name": "Sarah Mitchell",
+      "email": "sarah.mitchell@shirecom.com",
+      "role_summary": "Contract Counsel \u2014 Contract drafting, agreement review, statement of work development, and contract dispute resolution.",
+      "registry_file": "sarah-mitchell-skill-registry.json",
+      "total_skills": 7,
+      "model_distribution": {
+        "opus": 2,
+        "sonnet": 3,
+        "haiku": 2
+      },
+      "skill_names": [
+        "legal-advisor",
+        "risk-manager",
+        "docs-architect",
+        "business-analyst",
+        "mermaid-expert",
+        "search-specialist",
+        "reference-builder"
+      ]
+    },
+    {
+      "name": "Sophia Lane",
+      "email": "sophia.lane@shirecom.com",
+      "role_summary": "Marketing Strategist \u2014 Marketing strategy, campaign planning, analytics, and demand generation.",
+      "registry_file": "sophia-lane-skill-registry.json",
+      "total_skills": 14,
+      "model_distribution": {
+        "haiku": 10,
+        "sonnet": 4
+      },
+      "skill_names": [
+        "content-marketer",
+        "seo-content-writer",
+        "seo-content-planner",
+        "seo-content-auditor",
+        "seo-meta-optimizer",
+        "seo-authority-builder",
+        "seo-cannibalization-detector",
+        "seo-content-refresher",
+        "seo-snippet-hunter",
+        "seo-structure-architect",
+        "seo-keyword-strategist",
+        "sales-automator",
+        "search-specialist",
+        "mermaid-expert"
+      ]
+    },
+    {
+      "name": "Taylor Morgan",
+      "email": "taylor.morgan@shirecom.com",
+      "role_summary": "Automation Engineer \u2014 n8n workflow development, MCP server integration, AI agent orchestration, and workflow performance optimization.",
+      "registry_file": "taylor-morgan-skill-registry.json",
+      "total_skills": 15,
+      "model_distribution": {
+        "sonnet": 10,
+        "opus": 4,
+        "haiku": 1
+      },
+      "skill_names": [
+        "python-pro",
+        "javascript-pro",
+        "typescript-pro",
+        "fastapi-pro",
+        "ai-engineer",
+        "context-manager",
+        "prompt-engineer",
+        "api-documenter",
+        "backend-architect",
+        "database-optimizer",
+        "debugger",
+        "error-detective",
+        "performance-engineer",
+        "deployment-engineer",
+        "devops-troubleshooter"
+      ]
+    }
+  ]
+}

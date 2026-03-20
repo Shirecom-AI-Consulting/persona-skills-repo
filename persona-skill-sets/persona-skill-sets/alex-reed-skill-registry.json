@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "generated_at": "2026-03-20",
+  "persona": {
+    "name": "Alex Reed",
+    "email": "alex.reed@shirecom.com",
+    "role_summary": "Content Strategist \u2014 Content strategy, copywriting, SEO optimization, and content distribution analytics.",
+    "capabilities": [
+      "Content Strategy & Planning",
+      "Content Creation & Copywriting",
+      "SEO & Content Optimization",
+      "Content Distribution & Analytics"
+    ]
+  },
+  "allocation_rationale": "Alex owns end-to-end content production with full SEO coverage. The complete SEO suite aligns directly with the Content Strategy & SEO Optimization capabilities. Docs-architect supports content governance; search-specialist enables gap analysis and trend research.",
+  "skills": [
+    {
+      "name": "seo-content-writer",
+      "description": "Writes SEO-optimized content based on provided keywords and topic briefs. Creates engaging, comprehensive content following best practices. Use PROACTIVELY for content creation tasks.",
+      "model": "sonnet",
+      "file_path": "seo-content-writer.md"
+    },
+    {
+      "name": "seo-content-planner",
+      "description": "Creates comprehensive content outlines and topic clusters for SEO. Plans content calendars and identifies topic gaps. Use PROACTIVELY for content strategy and planning.",
+      "model": "haiku",
+      "file_path": "seo-content-planner.md"
+    },
+    {
+      "name": "seo-content-auditor",
+      "description": "Analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations. Use PROACTIVELY for content review.",
+      "model": "sonnet",
+      "file_path": "seo-content-auditor.md"
+    },
+    {
+      "name": "seo-content-refresher",
+      "description": "Identifies outdated elements in provided content and suggests updates to maintain freshness. Use PROACTIVELY for older content.",
+      "model": "haiku",
+      "file_path": "seo-content-refresher.md"
+    },
+    {
+      "name": "seo-cannibalization-detector",
+      "description": "Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when reviewing similar content.",
+      "model": "haiku",
+      "file_path": "seo-cannibalization-detector.md"
+    },
+    {
+      "name": "seo-authority-builder",
+      "description": "Analyzes content for E-E-A-T signals and suggests improvements to build authority and trust. Identifies missing credibility elements. Use PROACTIVELY for YMYL topics.",
+      "model": "sonnet",
+      "file_path": "seo-authority-builder.md"
+    },
+    {
+      "name": "seo-keyword-strategist",
+      "description": "Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords. Prevents over-optimization. Use PROACTIVELY for content optimization.",
+      "model": "haiku",
+      "file_path": "seo-keyword-strategist.md"
+    },
+    {
+      "name": "seo-meta-optimizer",
+      "description": "Creates optimized meta titles, descriptions, and URL suggestions based on character limits and best practices. Use PROACTIVELY for new content.",
+      "model": "haiku",
+      "file_path": "seo-meta-optimizer.md"
+    },
+    {
+      "name": "seo-snippet-hunter",
+      "description": "Formats content to be eligible for featured snippets and SERP features. Creates snippet-optimized content blocks. Use PROACTIVELY for question-based content.",
+      "model": "haiku",
+      "file_path": "seo-snippet-hunter.md"
+    },
+    {
+      "name": "seo-structure-architect",
+      "description": "Analyzes and optimizes content structure including header hierarchy, schema markup, and internal linking. Use PROACTIVELY for content structuring.",
+      "model": "haiku",
+      "file_path": "seo-structure-architect.md"
+    },
+    {
+      "name": "content-marketer",
+      "description": "Create compelling marketing content including blog posts, landing pages, and email campaigns. Focuses on conversion-optimized copy and brand voice. Use PROACTIVELY for marketing content.",
+      "model": "haiku",
+      "file_path": "content-marketer.md"
+    },
+    {
+      "name": "search-specialist",
+      "description": "Expert web researcher using advanced search techniques and synthesis. Masters search operators, result filtering, and multi-source verification. Use PROACTIVELY for deep research, information gathering, or trend analysis.",
+      "model": "haiku",
+      "file_path": "search-specialist.md"
+    },
+    {
+      "name": "docs-architect",
+      "description": "Design comprehensive documentation systems with information architecture, style guides, and content strategy. Masters technical writing and docs-as-code workflows. Use PROACTIVELY for documentation projects.",
+      "model": "sonnet",
+      "file_path": "docs-architect.md"
+    }
+  ],
+  "model_distribution": {
+    "sonnet": 4,
+    "haiku": 9
+  },
+  "total_skills": 13
+}

@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "generated_at": "2026-03-20",
+  "persona": {
+    "name": "Michael Chen",
+    "email": "michael.chen@shirecom.com",
+    "role_summary": "Digital Advertising Specialist \u2014 PPC campaign management, social media advertising, conversion rate optimization, and analytics.",
+    "capabilities": [
+      "PPC Campaign Management",
+      "Social Media Advertising",
+      "Conversion Rate Optimization",
+      "Advertising Analytics & Reporting"
+    ]
+  },
+  "allocation_rationale": "Michael manages paid and organic channel performance. SEO meta and keyword skills sharpen ad copy; data-scientist supports attribution modeling and CRO analytics; search-specialist informs competitive ad research; content-marketer produces ad creative and landing copy.",
+  "skills": [
+    {
+      "name": "content-marketer",
+      "description": "Create compelling marketing content including blog posts, landing pages, and email campaigns. Focuses on conversion-optimized copy and brand voice. Use PROACTIVELY for marketing content.",
+      "model": "haiku",
+      "file_path": "content-marketer.md"
+    },
+    {
+      "name": "seo-content-writer",
+      "description": "Writes SEO-optimized content based on provided keywords and topic briefs. Creates engaging, comprehensive content following best practices. Use PROACTIVELY for content creation tasks.",
+      "model": "sonnet",
+      "file_path": "seo-content-writer.md"
+    },
+    {
+      "name": "seo-meta-optimizer",
+      "description": "Creates optimized meta titles, descriptions, and URL suggestions based on character limits and best practices. Use PROACTIVELY for new content.",
+      "model": "haiku",
+      "file_path": "seo-meta-optimizer.md"
+    },
+    {
+      "name": "seo-keyword-strategist",
+      "description": "Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords. Prevents over-optimization. Use PROACTIVELY for content optimization.",
+      "model": "haiku",
+      "file_path": "seo-keyword-strategist.md"
+    },
+    {
+      "name": "seo-snippet-hunter",
+      "description": "Formats content to be eligible for featured snippets and SERP features. Creates snippet-optimized content blocks. Use PROACTIVELY for question-based content.",
+      "model": "haiku",
+      "file_path": "seo-snippet-hunter.md"
+    },
+    {
+      "name": "seo-structure-architect",
+      "description": "Analyzes and optimizes content structure including header hierarchy, schema markup, and internal linking. Use PROACTIVELY for content structuring.",
+      "model": "haiku",
+      "file_path": "seo-structure-architect.md"
+    },
+    {
+      "name": "sales-automator",
+      "description": "Draft cold emails, follow-ups, and proposal templates. Creates pricing pages, case studies, and sales scripts. Use PROACTIVELY for sales outreach or lead nurturing.",
+      "model": "haiku",
+      "file_path": "sales-automator.md"
+    },
+    {
+      "name": "search-specialist",
+      "description": "Expert web researcher using advanced search techniques and synthesis. Masters search operators, result filtering, and multi-source verification. Use PROACTIVELY for deep research, information gathering, or trend analysis.",
+      "model": "haiku",
+      "file_path": "search-specialist.md"
+    },
+    {
+      "name": "data-scientist",
+      "description": "Apply statistical analysis, machine learning, and data visualization to extract insights. Masters Python data stack and experimental design. Use PROACTIVELY for data science tasks.",
+      "model": "opus",
+      "file_path": "data-scientist.md"
+    }
+  ],
+  "model_distribution": {
+    "haiku": 7,
+    "sonnet": 1,
+    "opus": 1
+  },
+  "total_skills": 9
+}

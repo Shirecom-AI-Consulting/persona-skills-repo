@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "generated_at": "2026-03-20",
+  "persona": {
+    "name": "Emma Brooks",
+    "email": "emma.brooks@shirecom.com",
+    "role_summary": "Brand Strategist \u2014 Brand strategy, governance, campaign management, and competitive brand analysis.",
+    "capabilities": [
+      "Brand Strategy Development",
+      "Brand Governance & Standards",
+      "Brand Campaign Management",
+      "Competitive Brand Analysis"
+    ]
+  },
+  "allocation_rationale": "Emma governs brand voice and positioning. Content marketer and SEO authority builder are her primary production tools. Docs-architect supports brand standards documentation; search-specialist enables competitive brand analysis; mermaid helps visualize brand architecture.",
+  "skills": [
+    {
+      "name": "content-marketer",
+      "description": "Create compelling marketing content including blog posts, landing pages, and email campaigns. Focuses on conversion-optimized copy and brand voice. Use PROACTIVELY for marketing content.",
+      "model": "haiku",
+      "file_path": "content-marketer.md"
+    },
+    {
+      "name": "seo-authority-builder",
+      "description": "Analyzes content for E-E-A-T signals and suggests improvements to build authority and trust. Identifies missing credibility elements. Use PROACTIVELY for YMYL topics.",
+      "model": "sonnet",
+      "file_path": "seo-authority-builder.md"
+    },
+    {
+      "name": "seo-content-auditor",
+      "description": "Analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations. Use PROACTIVELY for content review.",
+      "model": "sonnet",
+      "file_path": "seo-content-auditor.md"
+    },
+    {
+      "name": "seo-content-writer",
+      "description": "Writes SEO-optimized content based on provided keywords and topic briefs. Creates engaging, comprehensive content following best practices. Use PROACTIVELY for content creation tasks.",
+      "model": "sonnet",
+      "file_path": "seo-content-writer.md"
+    },
+    {
+      "name": "seo-content-planner",
+      "description": "Creates comprehensive content outlines and topic clusters for SEO. Plans content calendars and identifies topic gaps. Use PROACTIVELY for content strategy and planning.",
+      "model": "haiku",
+      "file_path": "seo-content-planner.md"
+    },
+    {
+      "name": "search-specialist",
+      "description": "Expert web researcher using advanced search techniques and synthesis. Masters search operators, result filtering, and multi-source verification. Use PROACTIVELY for deep research, information gathering, or trend analysis.",
+      "model": "haiku",
+      "file_path": "search-specialist.md"
+    },
+    {
+      "name": "docs-architect",
+      "description": "Design comprehensive documentation systems with information architecture, style guides, and content strategy. Masters technical writing and docs-as-code workflows. Use PROACTIVELY for documentation projects.",
+      "model": "sonnet",
+      "file_path": "docs-architect.md"
+    },
+    {
+      "name": "mermaid-expert",
+      "description": "Create clear diagrams using Mermaid syntax for flowcharts, sequence diagrams, ERDs, and architecture visualizations. Use PROACTIVELY for diagram creation.",
+      "model": "sonnet",
+      "file_path": "mermaid-expert.md"
+    },
+    {
+      "name": "sales-automator",
+      "description": "Draft cold emails, follow-ups, and proposal templates. Creates pricing pages, case studies, and sales scripts. Use PROACTIVELY for sales outreach or lead nurturing.",
+      "model": "haiku",
+      "file_path": "sales-automator.md"
+    }
+  ],
+  "model_distribution": {
+    "haiku": 4,
+    "sonnet": 5
+  },
+  "total_skills": 9
+}

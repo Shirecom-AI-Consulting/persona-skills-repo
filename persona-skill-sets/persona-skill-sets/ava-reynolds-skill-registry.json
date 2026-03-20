@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "generated_at": "2026-03-20",
+  "persona": {
+    "name": "Ava Reynolds",
+    "email": "ava.reynolds@shirecom.com",
+    "role_summary": "CEO \u2014 Strategic leadership, client executive engagement, AI consulting oversight, and organizational decision making.",
+    "capabilities": [
+      "Strategic Leadership",
+      "Client Executive Engagement",
+      "Organizational Decision Making",
+      "AI Consulting Oversight"
+    ]
+  },
+  "allocation_rationale": "As CEO, Ava operates at the strategic layer: synthesizing business requirements, assessing risk, guiding legal posture, and driving executive communications. Skills support requirements articulation, risk frameworks, legal review, market research, documentation leadership, sales collateral, and AI persona governance.",
+  "skills": [
+    {
+      "name": "business-analyst",
+      "description": "Translate business needs into technical requirements with user stories, workflows, and acceptance criteria. Bridges stakeholder communication. Use PROACTIVELY for requirements gathering.",
+      "model": "sonnet",
+      "file_path": "business-analyst.md"
+    },
+    {
+      "name": "risk-manager",
+      "description": "Assess and mitigate technical and business risks with frameworks and quantitative analysis. Masters risk matrices and mitigation strategies. Use PROACTIVELY for risk assessment.",
+      "model": "opus",
+      "file_path": "risk-manager.md"
+    },
+    {
+      "name": "legal-advisor",
+      "description": "Draft and review legal documents including privacy policies, terms of service, and contracts. Provides compliance guidance and risk assessment. Use PROACTIVELY for legal content.",
+      "model": "opus",
+      "file_path": "legal-advisor.md"
+    },
+    {
+      "name": "search-specialist",
+      "description": "Expert web researcher using advanced search techniques and synthesis. Masters search operators, result filtering, and multi-source verification. Use PROACTIVELY for deep research, information gathering, or trend analysis.",
+      "model": "haiku",
+      "file_path": "search-specialist.md"
+    },
+    {
+      "name": "docs-architect",
+      "description": "Design comprehensive documentation systems with information architecture, style guides, and content strategy. Masters technical writing and docs-as-code workflows. Use PROACTIVELY for documentation projects.",
+      "model": "sonnet",
+      "file_path": "docs-architect.md"
+    },
+    {
+      "name": "mermaid-expert",
+      "description": "Create clear diagrams using Mermaid syntax for flowcharts, sequence diagrams, ERDs, and architecture visualizations. Use PROACTIVELY for diagram creation.",
+      "model": "sonnet",
+      "file_path": "mermaid-expert.md"
+    },
+    {
+      "name": "sales-automator",
+      "description": "Draft cold emails, follow-ups, and proposal templates. Creates pricing pages, case studies, and sales scripts. Use PROACTIVELY for sales outreach or lead nurturing.",
+      "model": "haiku",
+      "file_path": "sales-automator.md"
+    },
+    {
+      "name": "content-marketer",
+      "description": "Create compelling marketing content including blog posts, landing pages, and email campaigns. Focuses on conversion-optimized copy and brand voice. Use PROACTIVELY for marketing content.",
+      "model": "haiku",
+      "file_path": "content-marketer.md"
+    },
+    {
+      "name": "prompt-engineer",
+      "description": "Design effective prompts for LLMs with clear instructions, examples, and guardrails. Masters chain-of-thought, few-shot learning, and prompt optimization. Use PROACTIVELY for prompt engineering.",
+      "model": "opus",
+      "file_path": "prompt-engineer.md"
+    },
+    {
+      "name": "persona-creator",
+      "description": "Design AI personas with distinct voices, expertise domains, and interaction patterns for the QuadCode system. Masters prompt engineering for persona consistency.",
+      "model": "opus",
+      "file_path": "persona-creator.md"
+    },
+    {
+      "name": "hr-pro",
+      "description": "Handle HR-related tasks including job descriptions, interview questions, and policy documentation. Masters hiring workflows and employee communications. Use PROACTIVELY for HR content.",
+      "model": "haiku",
+      "file_path": "hr-pro.md"
+    }
+  ],
+  "model_distribution": {
+    "sonnet": 3,
+    "opus": 4,
+    "haiku": 4
+  },
+  "total_skills": 11
+}

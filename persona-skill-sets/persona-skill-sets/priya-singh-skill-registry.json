@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "generated_at": "2026-03-20",
+  "persona": {
+    "name": "Priya Singh",
+    "email": "priya.singh@shirecom.com",
+    "role_summary": "Market Research Analyst \u2014 Market research, competitive intelligence, voice of customer analysis, and market sizing.",
+    "capabilities": [
+      "Market Research & Analysis",
+      "Competitive Intelligence",
+      "Voice of Customer Analysis",
+      "Market Sizing & Opportunity Assessment"
+    ]
+  },
+  "allocation_rationale": "Priya's work centers on research synthesis, data analysis, and competitive landscape mapping. Skills support deep web research, statistical analysis, business requirements translation, and content-quality evaluation for market reports and deliverables.",
+  "skills": [
+    {
+      "name": "search-specialist",
+      "description": "Expert web researcher using advanced search techniques and synthesis. Masters search operators, result filtering, and multi-source verification. Use PROACTIVELY for deep research, information gathering, or trend analysis.",
+      "model": "haiku",
+      "file_path": "search-specialist.md"
+    },
+    {
+      "name": "data-scientist",
+      "description": "Apply statistical analysis, machine learning, and data visualization to extract insights. Masters Python data stack and experimental design. Use PROACTIVELY for data science tasks.",
+      "model": "opus",
+      "file_path": "data-scientist.md"
+    },
+    {
+      "name": "business-analyst",
+      "description": "Translate business needs into technical requirements with user stories, workflows, and acceptance criteria. Bridges stakeholder communication. Use PROACTIVELY for requirements gathering.",
+      "model": "sonnet",
+      "file_path": "business-analyst.md"
+    },
+    {
+      "name": "content-marketer",
+      "description": "Create compelling marketing content including blog posts, landing pages, and email campaigns. Focuses on conversion-optimized copy and brand voice. Use PROACTIVELY for marketing content.",
+      "model": "haiku",
+      "file_path": "content-marketer.md"
+    },
+    {
+      "name": "seo-content-auditor",
+      "description": "Analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations. Use PROACTIVELY for content review.",
+      "model": "sonnet",
+      "file_path": "seo-content-auditor.md"
+    },
+    {
+      "name": "seo-keyword-strategist",
+      "description": "Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords. Prevents over-optimization. Use PROACTIVELY for content optimization.",
+      "model": "haiku",
+      "file_path": "seo-keyword-strategist.md"
+    },
+    {
+      "name": "seo-authority-builder",
+      "description": "Analyzes content for E-E-A-T signals and suggests improvements to build authority and trust. Identifies missing credibility elements. Use PROACTIVELY for YMYL topics.",
+      "model": "sonnet",
+      "file_path": "seo-authority-builder.md"
+    },
+    {
+      "name": "docs-architect",
+      "description": "Design comprehensive documentation systems with information architecture, style guides, and content strategy. Masters technical writing and docs-as-code workflows. Use PROACTIVELY for documentation projects.",
+      "model": "sonnet",
+      "file_path": "docs-architect.md"
+    },
+    {
+      "name": "mermaid-expert",
+      "description": "Create clear diagrams using Mermaid syntax for flowcharts, sequence diagrams, ERDs, and architecture visualizations. Use PROACTIVELY for diagram creation.",
+      "model": "sonnet",
+      "file_path": "mermaid-expert.md"
+    }
+  ],
+  "model_distribution": {
+    "haiku": 3,
+    "opus": 1,
+    "sonnet": 5
+  },
+  "total_skills": 9
+}

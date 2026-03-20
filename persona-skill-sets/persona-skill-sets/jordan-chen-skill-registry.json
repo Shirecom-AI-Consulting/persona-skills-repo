@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "generated_at": "2026-03-20",
+  "persona": {
+    "name": "Jordan Chen",
+    "email": "jordan.chen@shirecom.com",
+    "role_summary": "AI Quality Auditor \u2014 Persona evaluation, prompt usage auditing, artifact quality assessment, and traceability analysis.",
+    "capabilities": [
+      "Persona Evaluation",
+      "Prompt Usage Auditing",
+      "Artifact Quality Assessment",
+      "Traceability Analysis"
+    ]
+  },
+  "allocation_rationale": "Jordan audits AI persona behavior and prompt quality. Prompt-engineer and persona-creator give deep understanding of the artifacts being evaluated; context-manager supports assessment of context handling; observability-engineer enables audit trail monitoring; docs-architect and mermaid support structured traceability reporting.",
+  "skills": [
+    {
+      "name": "prompt-engineer",
+      "description": "Design effective prompts for LLMs with clear instructions, examples, and guardrails. Masters chain-of-thought, few-shot learning, and prompt optimization. Use PROACTIVELY for prompt engineering.",
+      "model": "opus",
+      "file_path": "prompt-engineer.md"
+    },
+    {
+      "name": "persona-creator",
+      "description": "Design AI personas with distinct voices, expertise domains, and interaction patterns for the QuadCode system. Masters prompt engineering for persona consistency.",
+      "model": "opus",
+      "file_path": "persona-creator.md"
+    },
+    {
+      "name": "context-manager",
+      "description": "Manage AI conversation context, memory systems, and retrieval-augmented generation. Optimizes token usage and maintains conversation coherence. Use PROACTIVELY for AI context optimization.",
+      "model": "sonnet",
+      "file_path": "context-manager.md"
+    },
+    {
+      "name": "docs-architect",
+      "description": "Design comprehensive documentation systems with information architecture, style guides, and content strategy. Masters technical writing and docs-as-code workflows. Use PROACTIVELY for documentation projects.",
+      "model": "sonnet",
+      "file_path": "docs-architect.md"
+    },
+    {
+      "name": "mermaid-expert",
+      "description": "Create clear diagrams using Mermaid syntax for flowcharts, sequence diagrams, ERDs, and architecture visualizations. Use PROACTIVELY for diagram creation.",
+      "model": "sonnet",
+      "file_path": "mermaid-expert.md"
+    },
+    {
+      "name": "business-analyst",
+      "description": "Translate business needs into technical requirements with user stories, workflows, and acceptance criteria. Bridges stakeholder communication. Use PROACTIVELY for requirements gathering.",
+      "model": "sonnet",
+      "file_path": "business-analyst.md"
+    },
+    {
+      "name": "observability-engineer",
+      "description": "Implement comprehensive observability with metrics, logs, traces, and alerting. Masters Prometheus, Grafana, and distributed tracing. Use PROACTIVELY for observability design.",
+      "model": "opus",
+      "file_path": "observability-engineer.md"
+    },
+    {
+      "name": "error-detective",
+      "description": "Analyze error logs, stack traces, and crash reports to identify root causes. Masters log aggregation tools and error tracking systems. Use PROACTIVELY for error investigation.",
+      "model": "sonnet",
+      "file_path": "error-detective.md"
+    },
+    {
+      "name": "risk-manager",
+      "description": "Assess and mitigate technical and business risks with frameworks and quantitative analysis. Masters risk matrices and mitigation strategies. Use PROACTIVELY for risk assessment.",
+      "model": "opus",
+      "file_path": "risk-manager.md"
+    }
+  ],
+  "model_distribution": {
+    "opus": 4,
+    "sonnet": 5
+  },
+  "total_skills": 9
+}
